@@ -16,6 +16,16 @@
 }
 
 @media screen and (max-width: 632px) {     
+
+.cart_icon{
+  position: fixed;
+  display: flex;
+  align-self: center;
+  margin-left: 89vw;
+  margin-top: -3.4vw;
+  z-index: 1000;
+}
+
 #shop_div{
   position: relative;
   display: flex;
@@ -157,8 +167,8 @@
 #buy_modal-content {
   background-color: #000000;
   border: 2px solid #00FF19;
-  width: 80%;
-  height: 50%;
+  width: 90%;
+  height: 65vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -189,11 +199,11 @@
   font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   line-height: 2vw;
-  font-size: 1,5vw;
+  font-size: 2vw;
   color: #000000;
   
-  width: 90%;    
-  height: 4vw;
+  width: 54vw;
+  height: 6vw;
   border: none;
   background: #00FF19;
 
@@ -207,8 +217,8 @@
 #sum{
   font-family: "IBM Plex Mono", monospace;
   font-style: normal;
-  line-height: 3vw;
-  font-size: 2vw;
+  line-height: 4vw;
+  font-size: 4vw;
   color: #00FF19;
 
   position: relative;
@@ -222,31 +232,42 @@
   font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   line-height: 4vw;
-  font-size: 5vw;
+  font-size: 4vw;
   color: #00FF19;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 2%;
 }
 
-#email-address{
+
+
+
+
+#buy_myForm{
   width: 60vw;
+  align-self: center;
+  align-items: center;
+}
+
+
+#email-address{
+  width: 53vw;
   height: 6vw;
   margin-bottom: 2%;
   margin: 1% 5%;
 
-
   font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   line-height: 2vw;
-  font-size: 2vw;
+  font-size: 1,5vw;
 }
 
 #mobile_phone{
-  width: 90%;
-  height: 3vw;
+  width: 53vw;
+  height: 6vw;
   margin-bottom: 2%;
   margin: 1% 5%;
 
@@ -258,8 +279,8 @@
 }
 
 #name{
-  width: 90%;
-  height: 3vw;
+  width: 53vw;
+  height: 6vw;
   margin-bottom: 2%;
   margin: 1% 5%;
 
@@ -271,8 +292,8 @@
 }
 
 #adress{
-  width: 90%;
-  height: 3vw;
+  width: 53vw;
+  height: 6vw;
   margin-bottom: 2%;
   margin: 1% 5%;
 
@@ -285,44 +306,31 @@
 
 
 
-#buy_myForm{
-  width: 100vw;
-  align-self: center;
-}
 
-#purchase2{
-  margin-top: -3%;
-  width: 40%;
-  position: relative;
-  display: flex;
-  align-self: center;
-  flex-direction: column;
-}
 
-#purchase3{
-  margin-top: 5%;
-  width: 40%;
-  position: relative;
-  display: flex;
-  align-self: center;
-  flex-direction: column;
-}
 
-#purchase4{
-  margin-top: 10%;
-  width: 40%;
-  position: relative;
-  display: flex;
-  align-self: center;
-  flex-direction: column;
-}
 
-#patch{
-  width: 50vw;
-  position: relative;
-  display: flex;
-  align-self: center;
-  flex-direction: column;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
